@@ -1,3 +1,13 @@
 * {
   box-sizing: border-box;
 }
+.container {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.container li {
+  text-decoration: none;
+  display: inline-block;
+}
