@@ -10,7 +10,10 @@ body {
 a {
   color: black;
 }
-
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
 /* Header */
 
 header {
@@ -20,6 +23,7 @@ header {
   font-weight: bold;
   align-items: center;
   width: 100%;
+  height: 80px;
   border-bottom: 1px solid black;
   background-color: white;
   position: fixed;
@@ -41,8 +45,4 @@ header nav {
   width: 70px;
   height: 60px;
   margin-right: 12px;
-}
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
 }
