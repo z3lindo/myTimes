@@ -29,9 +29,7 @@ h1 {
 .header li {
   list-style: none;
   display: inline-block;
-  align-items: right;
 }
 .header li a {
   color: black;
-
 }
