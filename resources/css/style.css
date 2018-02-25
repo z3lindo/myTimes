@@ -26,12 +26,16 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  flex-grow: 1;
+  padding-left: 30px
 }
 .logo span {
   color: mediumaquamarine;
 }
-img {
-
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 nav {
   display: inline-block;
