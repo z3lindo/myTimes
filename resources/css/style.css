@@ -7,13 +7,13 @@ html, body {
   font-family: "Verdana", sans-serif;
 }
 
+/* Header */
+
 h1 {
   color: MediumAquaMarine;
   font-size: 14px;
   padding-left: 20px;
 }
-/* Header */
-
 .container {
   margin: 0 auto;
   display: flex;
