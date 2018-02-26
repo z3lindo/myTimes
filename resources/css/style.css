@@ -49,3 +49,25 @@ nav span {
   height: 60px;
   margin-right: 12px;
 }
+
+/* Main */
+
+.main-container {
+  display: flex;
+  border: 1px solid black;
+}
+.column {
+  border: 1px solid black;
+}
+.large {
+  border: 1px solid black;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
