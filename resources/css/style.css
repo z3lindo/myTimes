@@ -12,10 +12,6 @@ body {
 a {
   color: black;
 }
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-}
 h2 {
   margin-top: 0;
   margin-bottom: 0;
