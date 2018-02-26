@@ -52,7 +52,7 @@ nav span {
 
 /* Main */
 
-.main-container {
+.content {
   display: flex;
   border: 1px solid black;
 }
