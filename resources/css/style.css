@@ -62,9 +62,14 @@ nav span {
   display: flex;
   width: 630px;
   border: 1px solid black;
+}
+.lead-story {
+  border: 1px solid black;
+}
+.image-content {
+  border: 1px solid black;
 
 }
-
 .column.medium {
   display: flex;
   width: 300px;
@@ -76,4 +81,13 @@ nav span {
   width: 240px;
   border: 1px solid black;
 
+}
+.Stories {
+  border: 1px solid black;
+}
+.story {
+  border: 1px solid black;
+}
+.text-content {
+  border: 1px solid black;
 }
