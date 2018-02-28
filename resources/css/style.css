@@ -147,9 +147,11 @@ header nav {
   border: 1px solid black;
 }
 
-
  /* Footer */
 
+.footer {
+  background-color: mediumaquamarine;
+}
  .info {
    font-size: 14px;
  }
