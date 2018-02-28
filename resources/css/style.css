@@ -21,7 +21,10 @@ h2 {
 .narrative {
   font-size: 15px;
 }
-
+.stories {
+  
+  border: 1px solid black;
+}
 
 /* Header */
 
@@ -42,21 +45,18 @@ header {
 header nav {
   padding-right: 40px;
   border: 1px solid black;
-
 }
 nav span {
   display: inline-block;
   padding: 20px 10px;
   border: 1px solid black;
-
 }
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px
-  border: 1px solid black;
-
+  border: 1px solid black;=
 }
 .logo span {
   border: 1px solid black;
@@ -69,12 +69,8 @@ nav span {
   border: 1px solid black;
 }
 
-
-
 /* Main */
-span {
-  border: 1px solid black;
-}
+
 .content {
   display: flex;
   justify-content: space-around;
@@ -82,12 +78,18 @@ span {
   border: 1px solid black;
 }
 .lead-story {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   border: 1px solid black;
+  padding-top: 250px;
 }
 .image-content {
+  display: flex;
   border: 1px solid black;
 }
 .column.large {
+  display: flex;
   width: 630px;
   border: 1px solid black;
 }
@@ -99,9 +101,6 @@ span {
 .column.small {
   display: flex;
   width: 240px;
-  border: 1px solid black;
-}
-.stories {
   border: 1px solid black;
 }
 .story {
