@@ -33,11 +33,12 @@ nav span {
   justify-content: space-between;
   margin-top: 17px;
 }
-.image-content {
-  display: flex;
+.stories.text-content {
+  height: 250px;
   border: 1px solid black;
 }
-.story {
+.image-content {
+  display: flex;
   border: 1px solid black;
 }
 .text-content {
