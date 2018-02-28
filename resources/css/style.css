@@ -13,6 +13,16 @@ a {
   color: black;
 }
 
+/* Universal Styles - Stories */
+
+h2 {
+  font-size: 20px;
+}
+.narrative {
+  font-size: 15px;
+}
+
+
 /* Header */
 
 header {
@@ -59,10 +69,16 @@ nav span {
   border: 1px solid black;
 }
 
-/* Main */
 
+
+/* Main */
+span {
+  border: 1px solid black;
+}
 .content {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: 1px solid black;
 }
 .lead-story {
@@ -72,7 +88,6 @@ nav span {
   border: 1px solid black;
 }
 .column.large {
-  display: flex;
   width: 630px;
   border: 1px solid black;
 }
@@ -95,3 +110,9 @@ nav span {
 .text-content {
   border: 1px solid black;
 }
+
+ /* Footer */
+
+ .info {
+   font-size: 14px;
+ }
