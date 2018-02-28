@@ -92,6 +92,7 @@ header nav {
 
 .content {
   display: flex;
+  justify-content: space-between;
   width: 1232px;
   border: 1px solid black;
   margin: 0 auto 78px auto;
