@@ -12,19 +12,27 @@ body {
 a {
   color: black;
 }
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
 
 /* Universal Styles - Stories */
 
-h2 {
-  font-size: 20px;
-}
 .narrative {
   font-size: 15px;
 }
 .stories {
-  
+
   border: 1px solid black;
 }
+
 
 /* Header */
 
@@ -46,11 +54,7 @@ header nav {
   padding-right: 40px;
   border: 1px solid black;
 }
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-  border: 1px solid black;
-}
+
 .logo {
   display: flex;
   align-items: center;
