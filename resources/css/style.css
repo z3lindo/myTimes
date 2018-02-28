@@ -120,6 +120,12 @@ header nav {
   width: 630px;
   border: 1px solid black;
 }
+.fall-cancelled {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+.pop-culture {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
 
 /* Second Column */
 
@@ -127,6 +133,9 @@ header nav {
   display: flex;
   width: 300px;
   border: 1px solid black;
+}
+.cat-ceo {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
 }
 
 /* Last Column */
