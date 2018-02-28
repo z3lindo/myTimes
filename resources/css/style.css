@@ -26,11 +26,12 @@ nav span {
 /* Universal Styles - Stories */
 
 .narrative {
-  font-size: 15px;
+  margin-top: 16px;
 }
 .stories {
-
-  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 .image-content {
   display: flex;
@@ -57,11 +58,9 @@ header {
   background-color: white;
   position: fixed;
   z-index: 1;
-  border: 1px solid black;
 }
 header nav {
   padding-right: 40px;
-  border: 1px solid black;
 }
 
 .logo {
@@ -69,17 +68,14 @@ header nav {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px
-  border: 1px solid black;=
 }
 .logo span {
-  border: 1px solid black;
   color: mediumaquamarine;
 }
 .logo img {
   width: 70px;
   height: 60px;
   margin-right: 12px;
-  border: 1px solid black;
 }
 
 /* Content Container  */
@@ -101,6 +97,7 @@ header nav {
   align-items: center;
   border: 1px solid black;
   padding-top: 250px;
+
 }
 .column.large {
   display: flex;
