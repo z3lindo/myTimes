@@ -149,10 +149,12 @@ header nav {
 
  /* Footer */
 
-.footer {
-
+footer .info {
+  background-color: mediumaquamarine;
 }
- .info {
-     background-color: mediumaquamarine;
+.copyright {
+  background-color: mediumaquamarine;
+}
+.info {
    font-size: 14px;
- }
+}
