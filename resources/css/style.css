@@ -46,7 +46,12 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 300px;
+  margin-top: 15px;
 }
 .text-content {
   border: 1px solid black;
@@ -109,11 +114,10 @@ header nav {
 }
 .lead-story .image-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
+  width: 630px;
   margin-top: 0;
-  margin-bottom: 0;
+  text-align: left;
+  font-size: 40px;
 }
 .column.large {
   display: flex;
