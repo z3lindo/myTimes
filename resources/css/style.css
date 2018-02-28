@@ -37,8 +37,15 @@ nav span {
   height: 250px;
   border: 1px solid black;
 }
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 .image-content {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   border: 1px solid black;
 }
 .text-content {
@@ -83,9 +90,10 @@ header nav {
 
 .content {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  width: 1232px;
   border: 1px solid black;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
 
@@ -98,7 +106,14 @@ header nav {
   align-items: center;
   border: 1px solid black;
   padding-top: 250px;
-
+}
+.lead-story .image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .column.large {
   display: flex;
