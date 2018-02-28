@@ -150,8 +150,9 @@ header nav {
  /* Footer */
 
 .footer {
-  background-color: mediumaquamarine;
+
 }
  .info {
+     background-color: mediumaquamarine;
    font-size: 14px;
  }
