@@ -35,7 +35,6 @@ nav span {
 }
 .stories.text-content {
   height: 250px;
-  border: 1px solid black;
 }
 .story {
   display: flex;
@@ -94,7 +93,6 @@ header nav {
   display: flex;
   justify-content: space-between;
   width: 1232px;
-  border: 1px solid black;
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
@@ -119,7 +117,6 @@ header nav {
 .column.large {
   display: flex;
   width: 630px;
-  border: 1px solid black;
 }
 .fall-cancelled {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
@@ -133,7 +130,6 @@ header nav {
 .column.medium {
   display: flex;
   width: 300px;
-  border: 1px solid black;
 }
 .cat-ceo {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
@@ -144,8 +140,9 @@ header nav {
 .column.small {
   display: flex;
   width: 240px;
-  border: 1px solid black;
 }
+
+
 
  /* Footer */
 
@@ -157,4 +154,7 @@ footer .info {
 }
 .info {
    font-size: 14px;
+}
+.title {
+
 }
