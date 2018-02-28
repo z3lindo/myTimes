@@ -53,9 +53,6 @@ nav span {
   height: 300px;
   margin-top: 15px;
 }
-.text-content {
-  border: 1px solid black;
-}
 
 /* Header */
 
@@ -100,17 +97,16 @@ header nav {
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* First Column */
 
-
 .lead-story {
-  display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  border: 1px solid black;
-  padding-top: 250px;
 }
 .lead-story .image-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
