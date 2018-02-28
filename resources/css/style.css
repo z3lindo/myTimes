@@ -27,27 +27,36 @@ header {
   background-color: white;
   position: fixed;
   z-index: 1;
+  border: 1px solid black;
 }
 header nav {
   padding-right: 40px;
+  border: 1px solid black;
+
 }
 nav span {
   display: inline-block;
   padding: 20px 10px;
+  border: 1px solid black;
+
 }
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px
+  border: 1px solid black;
+
 }
 .logo span {
+  border: 1px solid black;
   color: mediumaquamarine;
 }
 .logo img {
   width: 70px;
   height: 60px;
   margin-right: 12px;
+  border: 1px solid black;
 }
 
 /* Main */
