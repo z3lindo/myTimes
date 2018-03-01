@@ -166,22 +166,28 @@ h3 {
 
  /* Footer */
 
- .info {
-   display: flex;
-   font-size: 14px;
-   background-color: mediumaquamarine;
- }
-footer .info {
-}
-.copyright {
-  color: black;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: mediumaquamarine;
-  font-family: "Verdana", sans-serif;
+  flex-direction: column;
   font-size: 12px;
+  font-family: "Verdana", sans-serif;
+  width: 100%;
+  height: 325px;
+  margin: auto;
 }
-.info a {
+footer .title {
+  display: inline-block;
   color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  border-right: 2px solid white;
+  padding-right: 25px;
 }
-.title {
-  color: white;
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
