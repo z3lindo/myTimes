@@ -150,11 +150,12 @@ footer .info {
   background-color: mediumaquamarine;
 }
 .copyright {
+  color: white;
   background-color: mediumaquamarine;
 }
 .info {
-   font-size: 14px;
+  font-size: 14px;
 }
 .title {
-
+  color: white;
 }
